@@ -40,7 +40,9 @@ function addToDo() {
 
 
     let newListItem = document.createElement('li');
+    //newListItem.setAttribute('draggable', 'true');
     ulList.appendChild(newListItem);
+
 
     const itemLabel = document.createElement('span');
     itemLabel.innerHTML = text;
