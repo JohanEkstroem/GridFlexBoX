@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice with Grid and Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="item header">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </header>
+        <aside class="item left">
+            <a href="https://www.aftonbladet.se">Aftonbladet</a>
+            <a href="https://www.w3schools.com/" type="_blank">w3school</a>
+            <a href="https://www.dn.se">DN</a>
+        </aside>
+        <main class="item main">
+            <div class="content">
+                <h1>My ToDo</h1>
+
+                <h4 id="tasksCompleted">completed: 0</h4>
+                <input name="input" id="input">
+                <button type="text" id="btn">OK</button>
+                <p id="warning"></p>
+                <ul id="ulList"></ul>
+            </div>
+        </main>
+        <aside class="item right">Right</aside>
+        <footer class="item footer">
+            <a href="https://github.com/JohanEkstroem"><img src="/img/github.png" alt="GitHub"></a>
+            <a href="https://twitter.com/JohanEkstroem"><img src="/img/twitter.png" alt="Twitter"></a>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
